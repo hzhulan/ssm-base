@@ -11,10 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class LoginController {
 
-    public LoginController() {
-        System.out.println("===================== login 初始化 =====================");
-    }
-
     @RequestMapping("/login")
     public String login() {
         return "login";
